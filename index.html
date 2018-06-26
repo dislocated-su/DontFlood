@@ -6,18 +6,28 @@
 <title>Batumi-Akhaltsikhe</title>
 <link rel="stylesheet" href="bulma.min.css">
 <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+	<style>
+		.hero.is-fullheight {
+		min-height: 88vh;
+		}
+	</style>
 </head>
 	
 <body>
-<section class="hero is-fullheight">
-  <div class="hero-head has-background-light">
-    <nav class="navbar is-white">
+	
+	<nav class="navbar is-light">
       <div class="navbar-brand">
 		  <a class="navbar-item" href="index.html">
 			  <img src="logo_normal.png" alt="UDoNotFloodCauseOfUs" width="112" height="28">
 		  </a>
+		  <div class="navbar-burger burger" data-target="menuIndex">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
 		</div>
-      <div class="navbar-menu">
+		
+      <div id="menuIndex" class="navbar-menu">
         <div class="navbar-start">
 			<a class="navbar-item" href="index.html"> Home </a>
           <div class="navbar-item has-dropdown is-hoverable"> <a class="navbar-link" href="#"> Quick navigation </a>
@@ -29,11 +39,12 @@
 				<a class="navbar-item" href="#"> Form </a>
               <hr class="navbar-divider">
               <a class="navbar-item" href="#/"> Elements </a>
-				<a class="navbar-item" href="#"> Components </a> </div>
+				<a class="navbar-item" href="#"> Components </a>
+			  </div>
           </div>
         </div>
         <div class="navbar-end">
-          <div class="navbar-item">
+          <div class="navbar-item is-hidden-tablet-only">
             <div class="field is-grouped">
               <p class="control"> 
 				  <a class="bd-tw-button button">
@@ -56,7 +67,9 @@
         </div>
       </div>
     </nav>
-  </div>
+<section class="hero is-fullheight">
+  
+    
   <div class="hero-body">
 			  <div class="container">
 				  <h1 class="title is-1">Georgia,<br>Batumi-Akhaltsikhe</h1>
@@ -76,5 +89,17 @@
 			  </div>
 		  </div>
 </section>
+	<script type="text/javascript">
+    (function () {
+        var burger = document.querySelector('.burger');
+        var nav = document.querySelector('#' + burger.dataset.target);
+
+        burger.addEventListener('click', function () {
+            burger.classList.toggle('is-active');
+            nav.classList.toggle('is-active');
+        });
+    })();
+
+</script>
 </body>
 </html>
