@@ -2,6 +2,27 @@ html {
   text-rendering: optimizeLegibility;
 }
 
+
+@media only screen and (min-width: 880px) {
+	.mobile-only {
+		visibility:hidden !important;
+		display:none !important;
+	}
+	.desktop-only {
+		display:block !important;
+	}
+}
+
+@media only screen and (max-width: 879px) {
+	.desktop-only {
+		display:none !important;
+		visibility:hidden !important;
+	}
+	.mobile-only {
+		display:block !important;
+	}
+}
+
 @keyframes rotateanimright {
   from {
     transform: rotate(0deg);
@@ -59,7 +80,7 @@ html {
 
 #snd {
   top: 10px;
-  color: #ff3860
+  color: #ff3860;
 }
 
 #trd {
@@ -67,7 +88,7 @@ html {
   left: 6.2vw;
   bottom: 4px;
   animation-delay: 55ms;
-  color: #b86bff
+  color: #b86bff;
 }
 
 #cogbox {
