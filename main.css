@@ -54,12 +54,12 @@ html {
 #fst {
   left: 10px;
   animation-delay: 50ms;
-  color: #00A990;
+  color: #23d160;
 }
 
 #snd {
   top: 10px;
-  color: #97282A
+  color: #ff3860
 }
 
 #trd {
@@ -67,7 +67,7 @@ html {
   left: 6.2vw;
   bottom: 4px;
   animation-delay: 55ms;
-  color: #BEC81C
+  color: #b86bff
 }
 
 #cogbox {
