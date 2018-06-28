@@ -1,0 +1,77 @@
+html {
+  text-rendering: optimizeLegibility;
+}
+
+@keyframes rotateanimright {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes rotateanimleft {
+  from {
+    transform: rotate(360deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
+}
+
+.hero.is-fullheight {
+  min-height: 88vh;
+}
+
+.superbutton {
+  transition: background-color, 350ms, ease-in-out;
+  text-align: center;
+  white-space: nowrap;
+  padding-left: 1.375em;
+  padding-right: 1.375em;
+  margin-right: 1.5rem;
+}
+
+.superbutton:hover {
+  opacity: 0.5 !important;
+  color: white;
+}
+
+.left {
+  animation: rotateanimleft 2s linear infinite;
+}
+
+.right {
+  animation: rotateanimright 2s linear infinite;
+}
+
+.cog {
+  position: relative;
+  color: gray;
+}
+
+#fst {
+  left: 10px;
+  animation-delay: 50ms;
+  color: #00A990;
+}
+
+#snd {
+  top: 10px;
+  color: #97282A
+}
+
+#trd {
+  display: block;
+  left: 6.2vw;
+  bottom: 4px;
+  animation-delay: 55ms;
+  color: #BEC81C
+}
+
+#cogbox {
+  display: inline;
+  position: relative;
+  left: 5vw;
+}
