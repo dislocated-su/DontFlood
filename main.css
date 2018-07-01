@@ -1,220 +1,220 @@
 html {
-  text-rendering: optimizeLegibility;
+    text-rendering: optimizeLegibility;
 }
 
 ::selection {
-  color: #fff;
-  background: #00D1B2 !important;
+    color: #fff;
+    background: #00D1B2 !important;
 }
 
 @media only screen and (min-width: 880px) {
-  .mobile-only {
-    visibility: hidden !important;
-    display: none !important;
-  }
-  .desktop-only {
-    display: block !important;
-  }
+    .mobile-only {
+        visibility: hidden !important;
+        display: none !important;
+    }
+    .desktop-only {
+        display: block !important;
+    }
 }
 
 @media only screen and (max-width: 879px) {
-  .desktop-only {
-    display: none !important;
-    visibility: hidden !important;
-  }
-  .mobile-only {
-    display: block !important;
-  }
+    .desktop-only {
+        display: none !important;
+        visibility: hidden !important;
+    }
+    .mobile-only {
+        display: block !important;
+    }
 }
 
 @keyframes rotateanimright {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
 }
 
 @keyframes rotateanimleft {
-  from {
-    transform: rotate(360deg);
-  }
-  to {
-    transform: rotate(0deg);
-  }
+    from {
+        transform: rotate(360deg);
+    }
+    to {
+        transform: rotate(0deg);
+    }
 }
 
 @keyframes rbow {
-  0% {
-    background-position: 1% 80%;
-  }
-  50% {
-    background-position: 99% 20%;
-  }
-  100% {
-    background-position: 1% 80%;
-  }
+    0% {
+        background-position: 1% 80%;
+    }
+    50% {
+        background-position: 99% 20%;
+    }
+    100% {
+        background-position: 1% 80%;
+    }
 }
 
 @keyframes boltlight {
-  0% {
-    color: lightslategray;
-  }
-  15% {
-    color: #FFB90F;
-  }
-  50% {
-    color: #FFB90F;
-  }
-  65% {
-    color: lightslategray;
-  }
-  100% {
-    color: lightslategray;
-  }
+    0% {
+        color: lightslategray;
+    }
+    15% {
+        color: #FFB90F;
+    }
+    50% {
+        color: #FFB90F;
+    }
+    65% {
+        color: lightslategray;
+    }
+    100% {
+        color: lightslategray;
+    }
 }
 
 .hero.is-fullheight {
-  min-height: 88vh;
+    min-height: 88vh;
 }
 
 .superbutton {
     transition: background-color, 350ms, ease-in-out;
-  text-align: center;
-  white-space: nowrap;
-  padding-left: 1.375em;
-  padding-right: 1.375em;
-  margin-right: 1.5rem;
+    text-align: center;
+    white-space: nowrap;
+    padding-left: 1.375em;
+    padding-right: 1.375em;
+    margin-right: 1.5rem;
 }
 
 .superbutton:hover {
-  opacity: 0.5 !important;
-  color: white;
+    opacity: 0.5 !important;
+    color: white;
 }
 
 .left {
-  animation: rotateanimleft 2s linear infinite;
+    animation: rotateanimleft 2s linear infinite;
 }
 
 .right {
-  animation: rotateanimright 2s linear infinite;
+    animation: rotateanimright 2s linear infinite;
 }
 
 .cog {
-  position: relative;
-  color: gray;
+    position: relative;
+    color: gray;
 }
 
 .light-theme {
-  background-color: #F4F4F4;
-  color: #363636;
-  font-weight: 400;
-  font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica, Aria, sans-serif;
+    background-color: #F4F4F4;
+    color: #363636;
+    font-weight: 400;
+    font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica, Aria, sans-serif;
 }
 
 .header {
-  font-size: 2rem;
-  line-height: 60px;
-  font-weight: 600;
+    font-size: 2rem;
+    line-height: 60px;
+    font-weight: 600;
 }
 
 .rainbow {
-  animation: rbow 8s ease infinite;
-  background-image: linear-gradient(124deg, rgb(255, 71, 15), rgb(255, 56, 96), rgb(184, 107, 255), rgb(50, 155, 220));
-  background-size: 800% 800%;
+    animation: rbow 8s ease infinite;
+    background-image: linear-gradient(124deg, rgb(255, 71, 15), rgb(255, 56, 96), rgb(184, 107, 255), rgb(50, 155, 220));
+    background-size: 800% 800%;
 }
 
 .text {
-  color: transparent;
+    color: transparent;
     background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .boxcontrol {
-  position: relative;
-  top: 20px;
+    position: relative;
+    top: 20px;
 }
 
 .subright {
-  padding-left: 150px;
-  text-align: justify;
+    padding-left: 150px;
+    text-align: justify;
 }
 
 .subleft {
-  padding-right: 190px;
-  text-align: justify;
+    padding-right: 190px;
+    text-align: justify;
 }
 
 .Hfeatures {
-  font-size: 4rem;
-  padding-bottom: 20px;
+    font-size: 4rem;
+    padding-bottom: 20px;
 }
 
 .text-larger-light {
-  font-size: 1.1em;
+    font-size: 1.1em;
 }
 
 .transparentbox {
-  color: transparent;
+    color: transparent;
 }
 
 #stats {
-  box-shadow: -8px -7px 26px -2px rgba(0, 0, 0, 0.35);
+    box-shadow: -8px -7px 26px -2px rgba(0, 0, 0, 0.35);
 }
 
 #bolt {
-  color: lightslategray;
-  animation: boltlight 10s ease 1s infinite;
-  margin-right: 10px;
+    color: lightslategray;
+    animation: boltlight 10s ease 1s infinite;
+    margin-right: 10px;
 }
 
 #drop {
-  color: #45C8DD;
+    color: #45C8DD;
 }
 
 #fst {
-  left: 10px;
-  animation-delay: 50ms;
+    left: 10px;
+    animation-delay: 50ms;
     color: #209cee;
 }
 
 #snd {
-  top: 10px;
+    top: 10px;
     color: #23d160;
 }
 
 #trd {
-  display: block;
-  left: 5.6vw;
-  bottom: 4px;
-  animation-delay: 55ms;
+    display: block;
+    left: 5.6vw;
+    bottom: 4px;
+    animation-delay: 55ms;
     color: #ff3860;
 }
 
 #cogbox {
-  display: inline;
-  position: relative;
-  left: 5vw;
+    display: inline;
+    position: relative;
+    left: 5vw;
 }
 
 #scrolldown_text {
-  margin: 3vh;
+    margin: 3vh;
 }
 
 #scrolldown {
-  box-shadow: -8px -7px 26px -2px rgba(0, 0, 0, 0.20);
+    box-shadow: -8px -7px 26px -2px rgba(0, 0, 0, 0.20);
 }
 
 #heroContainer {
-  padding: 10vh 0 15vh 0;
+    padding: 10vh 0 15vh 0;
 }
 
 #footer-divider {
-  padding-bottom: 20px;
+    padding-bottom: 20px;
 }
 
 #tile-green {
-  color:rgba(0,0,0,0.7)
+    color: rgba(0, 0, 0, 0.7)
 }
