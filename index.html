@@ -1,242 +1,301 @@
 <!DOCTYPE html>
 <html>
 
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Batumi-Akhaltsikhe</title>
-    <link rel="stylesheet" href="bulma.min.css">
-    <link rel="stylesheet" href="main.css">
-    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
-  </head>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Batumi-Akhaltsikhe</title>
+  <link rel="stylesheet" href="bulma.min.css">
+  <link rel="stylesheet" href="main.css">
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+</head>
 
-  <body>
+<body>
 
-    <nav class="navbar is-white">
-      <div class="navbar-brand">
-        <a class="navbar-item" href="index.html">
-			  <img src="logo_normal.png" alt="UDoNotFloodCauseOfUs" width="112" height="28">
-		  </a>
-        <div class="navbar-burger burger" data-target="menuIndex">
-          <span></span>
-          <span></span>
-          <span></span>
+  <nav class="navbar is-white">
+
+    <div class="navbar-brand">
+      <a class="navbar-item" href="index.html">
+        <img src="logo_normal.png" alt="UDoNotFloodCauseOfUs" width="112" height="28">
+      </a>
+      <div class="navbar-burger burger" data-target="menuIndex">
+        <span></span>
+        <span></span>
+        <span></span>
+        <!--The three lines in burger menu-->
+      </div>
+    </div>
+
+    <div id="menuIndex" class="navbar-menu">
+
+      <div class="navbar-start">
+        <a class="navbar-item" href="index.html"> Home </a>
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link" href="#"> Technical bits </a>
+          <div class="navbar-dropdown is-boxed">
+            <a class="navbar-item" href="#"> The Problem </a>
+            <a class="navbar-item" href="#"> Location </a>
+            <a class="navbar-item" href="#"> Columns </a>
+            <a class="navbar-item" href="#"> Layout </a>
+            <a class="navbar-item" href="#"> Form </a>
+            <hr class="navbar-divider">
+            <a class="navbar-item" href="#/"> Elements </a>
+            <a class="navbar-item" href="#"> Components </a>
+          </div>
         </div>
       </div>
 
-      <div id="menuIndex" class="navbar-menu">
-        <div class="navbar-start">
-          <a class="navbar-item" href="index.html"> Home </a>
-          <div class="navbar-item has-dropdown is-hoverable"> <a class="navbar-link" href="#"> Technical bits </a>
-            <div class="navbar-dropdown is-boxed">
-              <a class="navbar-item" href="#"> The Problem </a>
-              <a class="navbar-item" href="#"> Location </a>
-              <a class="navbar-item" href="#"> Columns </a>
-              <a class="navbar-item" href="#"> Layout </a>
-              <a class="navbar-item" href="#"> Form </a>
-              <hr class="navbar-divider">
-              <a class="navbar-item" href="#/"> Elements </a>
-              <a class="navbar-item" href="#"> Components </a>
+      <div class="navbar-end">
+        <div class="navbar-item is-hidden-tablet-only">
+          <div class="field is-grouped">
+            <p class="control">
+              <a class="bd-tw-button button is-light" href="comingsoon.html">
+                <span class="icon">
+                  <i class="fab fa-bitcoin"></i>
+                </span>
+                <span> Donate </span>
+              </a>
+            </p>
+            <p class="control">
+              <a class="button is-primary" href="comingsoon.html">
+                <span class="icon">
+                  <i class="fas fas fa-comment"></i>
+                </span>
+                <span> Feedback </span>
+              </a>
+            </p>
+          </div>
+          <!--field-->
+        </div>
+        <!--navbar-item-->
+      </div>
+      <!--navbar-end-->
+
+    </div>
+    <!--MenuIndex-->
+
+  </nav>
+  <!--Navbar-->
+
+
+  <section class="hero is-fullheight">
+
+
+    <div class="hero-body">
+      <div id="heroContainer" class="container">
+        <div class="columns">
+          <div class="column is-two-thirds">
+
+            <h1 class="title is-1">Georgia,
+              <br>Batumi-Akhaltsikhe</h1>
+            <h3 class="subtitle is-3">A
+              <strong>Hydropower</strong> project designed by
+              <strong>
+                <span class="rainbow text">UDoNotFloodCauseOfUs</span>
+              </strong>
+            </h3>
+
+            <p id="mainbuttons" class="control">
+              <a href="info.html" class="button is-large is-primary superbutton">
+                <strong>Learn more</strong>
+              </a>
+              <a class="button superbutton is-large is-light">
+                <span class="icon">
+                  <i class="fas fa-video"></i>
+                </span>
+                Watch&nbsp;
+                <strong>video</strong>
+              </a>
+            </p>
+
+          </div>
+
+          <div class="column is-one-third is-center desktop-only">
+            <div id="cogbox" class="fa-2x">
+              <i id="fst" class="fas fa-cog right cog fa-4x"></i>
+              <i id="snd" class="fas fa-cog left cog fa-3x"></i>
+              <i id="trd" class="fas fa-cog right cog fa-2x"></i>
             </div>
+
+
           </div>
         </div>
-        <div class="navbar-end">
-          <div class="navbar-item is-hidden-tablet-only">
-            <div class="field is-grouped">
-              <p class="control">
-                <a class="bd-tw-button button is-light">
-					  <span class="icon">
-						  <i class="fab fa-bitcoin"></i> 
-					  </span> 
-					  <span> Donate </span> 
-				  </a>
-              </p>
-              <p class="control">
-                <a class="button is-primary" href=""> 
-					  <span class="icon"> 
-						  <i class="fas fas fa-comment"></i> 
-					  </span> 
-					  <span> Feedback </span> 
-				  </a>
-              </p>
-            </div>
+      </div>
+    </div>
+    <div class="hero-foot header has-text-centered boxcontrol light-theme" id="scrolldown">
+      <div id="scrolldown_text">Scroll down for overview</div>
+    </div>
+  </section>
+  <section class="section light-theme boxcontrol">
+    <br>
+    <br>
+    <div class="container">
+      <div class="columns">
+        <div class="column has-text-centered is-one-fifth">
+          <span class="fa-2x">
+            <i id="bolt" class="fas fa-bolt fa-10x"></i>
+          </span>
+        </div>
+        <div class="column has-text-right">
+          <div class="">
+            <h2 class="title Hfeatures">Provides 75 thousand people with
+              <span class="rainbow text">renewable energy</span>
+            </h2>
+            <h3 class="subtitle subright">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+              magna aliqua. Varius vel pharetra vel turpis.</h3>
           </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section light-theme">
+    <div class="container">
+      <div class="columns">
+
+
+        <div class="column has-text-left">
+          <div class="">
+            <h1 class="title Hfeatures">Located on a confluence of two rivers with a total flow rate of
+              <span class="rainbow text">20m/s
+                <sup>3</sup>
+              </span>
+            </h1>
+            <h2 class="subtitle subleft">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+              magna aliqua. Varius vel pharetra vel turpis.</h2>
+          </div>
+        </div>
+        <div class="column has-text-centered is-one-fifth">
+          <span class="fa-2x">
+            <i id="drop" class="fas fa-tint fa-10x"></i>
+          </span>
+        </div>
+
+      </div>
+      <br>
+    </div>
+  </section>
+  <section id="stats" class="section has-background-grey-dark has-text-white">
+    <nav class="level">
+      <div class="level-item has-text-centered">
+        <div>
+          <p class="heading text-larger-light">Dam height</p>
+          <p class="title has-text-info">100m</p>
+        </div>
+      </div>
+      <div class="level-item has-text-centered">
+        <div>
+          <p class="heading text-larger-light">Potential Head</p>
+          <p class="title has-text-warning">270m</p>
+        </div>
+      </div>
+      <div class="level-item has-text-centered">
+        <div>
+          <p class="heading text-larger-light">KW of power</p>
+          <p class="title has-text-danger">47,700</p>
+        </div>
+      </div>
+      <div class="level-item has-text-centered">
+        <div>
+          <p class="heading text-larger-light">Some title</p>
+          <p class="title has-text-success">33,200</p>
         </div>
       </div>
     </nav>
-    <section class="hero is-fullheight">
+  </section>
+  <section class="section has-background-grey-dark has-text-white">
 
+    <div class="tile is-ancestor">
 
-      <div class="hero-body">
-        <div id="heroContainer" class="container">
-          <div class="columns">
-            <div class="column is-two-thirds">
-
-              <h1 class="title is-1">Georgia,<br>Batumi-Akhaltsikhe</h1>
-              <h3 class="subtitle is-3">A <strong>Hydropower</strong> project designed by <strong><span class="rainbows texts">UDoNotFloodCauseOfUs</span></strong></h3>
-
-              <p id="mainbuttons" class="control">
-                <a href="info.html" class="button is-large is-primary superbutton"><strong>Learn more</strong></a>
-                <a class="button superbutton is-large is-light">
-	   	     		<span class="icon">
-						<i class="fas fa-video"></i>	  
-			 		</span>
-					Watch&nbsp;<strong>video</strong>
-		   		</a>
-              </p>
-
-            </div>
-
-            <div class="column is-one-third is-center desktop-only">
-              <div id="cogbox" class="fa-2x">
-                <i id="fst" class="fas fa-cog right cog fa-4x"></i>
-                <i id="snd" class="fas fa-cog left cog fa-3x"></i>
-                <i id="trd" class="fas fa-cog right cog fa-2x"></i>
-              </div>
-
-
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="hero-foot header has-text-centered boxcontrol light-theme" id="scrolldown">
-        <div id="scrolldown_text">Scroll down for overview</div>
-      </div>
-    </section>
-    <section class="section light-theme boxcontrol">
-      <br><br>
-      <div class="container">
-        <div class="columns">
-          <div class="column has-text-centered is-one-fifth">
-            <span class="fa-2x"><i id="bolt" class="fas fa-bolt fa-10x"></i></span>
-          </div>
-          <div class="column has-text-right">
-            <div class="">
-              <h2 class="title Hfeatures">Provides 75 thousand people with <span class="rainbows texts">renewable energy</span></h2>
-              <h3 class="subtitle subright">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Varius vel pharetra vel turpis.</h3>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="section light-theme">
-      <div class="container">
-        <div class="columns">
-
-
-          <div class="column has-text-left">
-            <div class="">
-              <h1 class="title Hfeatures">Located on a confluence of two rivers with a total flow rate of <span class="rainbows texts">20m/s<sup>3</sup></span></h1>
-              <h2 class="subtitle subleft">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Varius vel pharetra vel turpis.</h2>
-            </div>
-          </div>
-          <div class="column has-text-centered is-one-fifth">
-            <span class="fa-2x"><i id="drop" class="fas fa-tint fa-10x"></i></span>
-          </div>
-
-        </div>
-        <br>
-      </div>
-    </section>
-    <section id="stats" class="section has-background-grey-dark has-text-white">
-      <nav class="level">
-        <div class="level-item has-text-centered">
-          <div>
-            <p class="heading text-larger-light">Dam height</p>
-            <p class="title has-text-info">100m</p>
-          </div>
-        </div>
-        <div class="level-item has-text-centered">
-          <div>
-            <p class="heading text-larger-light">Potential Head</p>
-            <p class="title has-text-warning">270m</p>
-          </div>
-        </div>
-        <div class="level-item has-text-centered">
-          <div>
-            <p class="heading text-larger-light">KW of power</p>
-            <p class="title has-text-danger">47,700</p>
-          </div>
-        </div>
-        <div class="level-item has-text-centered">
-          <div>
-            <p class="heading text-larger-light">Some title</p>
-            <p class="title has-text-success">33,200</p>
-          </div>
-        </div>
-      </nav>
-    </section>
-    <section class="section has-background-grey-dark has-text-white">
-
-      <div class="tile is-ancestor">
-
-        <div class="tile is-parent">
-          <article class="tile is-child notification is-info">
-            <p class="title">leo urna molestie</p>
-            <p class="subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pharetra convallis posuere morbi leo urna molestie at. Ultrices mi tempus imperdiet nulla malesuada pellentesque elit.
-              Egestas quis ipsum suspendisse ultrices gravida dictum fusce ut placerat. In mollis nunc sed id.</p>
-          </article>
-        </div>
-        <div class="tile is-parent">
-          <article class="tile is-child notification is-warning">
-            <p class="title">leo urna molestie</p>
-            <p class="subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pharetra convallis posuere morbi leo urna molestie at. Ultrices mi tempus imperdiet nulla malesuada pellentesque elit.
-              Egestas quis ipsum suspendisse ultrices gravida dictum fusce ut placerat. In mollis nunc sed id.</p>
-          </article>
-        </div>
-
-
-        <div class="tile is-parent">
-          <article class="tile is-child notification is-danger">
-            <p class="title">leo urna molestie</p>
-            <p class="subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pharetra convallis posuere morbi leo urna molestie at. Ultrices mi tempus imperdiet nulla malesuada pellentesque elit.
-              Egestas quis ipsum suspendisse ultrices gravida dictum fusce ut placerat. In mollis nunc sed id.</p>
-          </article>
-        </div>
-        <div class="tile is-parent">
-          <article class="tile is-child notification is-success">
-            <p class="title">leo urna molestie</p>
-            <p class="subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pharetra convallis posuere morbi leo urna molestie at. Ultrices mi tempus imperdiet nulla malesuada pellentesque elit.
-              Egestas quis ipsum suspendisse ultrices gravida dictum fusce ut placerat. In mollis nunc sed id.</p>
-          </article>
-        </div>
+      <div class="tile is-parent">
+        <article class="tile is-child notification is-info">
+          <p class="title">leo urna molestie</p>
+          <p class="subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+            aliqua. Pharetra convallis posuere morbi leo urna molestie at. Ultrices mi tempus imperdiet nulla malesuada pellentesque
+            elit. Egestas quis ipsum suspendisse ultrices gravida dictum fusce ut placerat. In mollis nunc sed id.</p>
+        </article>
       </div>
       <div class="tile is-parent">
-        <article class="tile is-child notification rainbows">
+        <article class="tile is-child notification is-warning">
           <p class="title">leo urna molestie</p>
-          <p class="subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eleifend mi in nulla posuere sollicitudin. Sodales ut etiam sit amet nisl purus in mollis. Proin sed libero enim sed
-            faucibus turpis in eu mi. Phasellus egestas tellus rutrum tellus pellentesque eu tincidunt. Id porta nibh venenatis cras sed felis eget velit aliquet. Arcu felis bibendum ut tristique et egestas quis. Ullamcorper morbi tincidunt ornare massa
-            eget egestas purus. Tempus egestas sed sed risus pretium quam vulputate. Id velit ut tortor pretium viverra suspendisse. Pellentesque habitant morbi tristique senectus et netus et malesuada. Id interdum velit laoreet id. Auctor urna nunc id
-            cursus metus aliquam eleifend mi in. Tellus pellentesque eu tincidunt tortor aliquam. Convallis convallis tellus id interdum velit laoreet. Praesent semper feugiat nibh sed pulvinar. Erat nam at lectus urna duis. Orci nulla pellentesque dignissim
-            enim sit amet. Consectetur adipiscing elit duis tristique. Lorem ipsum dolor sit amet consectetur adipiscing.
+          <p class="subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+            aliqua. Pharetra convallis posuere morbi leo urna molestie at. Ultrices mi tempus imperdiet nulla malesuada pellentesque
+            elit. Egestas quis ipsum suspendisse ultrices gravida dictum fusce ut placerat. In mollis nunc sed id.</p>
+        </article>
+      </div>
+
+
+      <div class="tile is-parent">
+        <article class="tile is-child notification is-danger">
+          <p class="title">leo urna molestie</p>
+          <p class="subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+            aliqua. Pharetra convallis posuere morbi leo urna molestie at. Ultrices mi tempus imperdiet nulla malesuada pellentesque
+            elit. Egestas quis ipsum suspendisse ultrices gravida dictum fusce ut placerat. In mollis nunc sed id.</p>
+        </article>
+      </div>
+      <div class="tile is-parent">
+        <article id="tile-green" class="tile is-child notification is-success">
+          <p class="title">leo urna molestie</p>
+          <p class="subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+            aliqua. Pharetra convallis posuere morbi leo urna molestie at. Ultrices mi tempus imperdiet nulla malesuada pellentesque
+            elit. Egestas quis ipsum suspendisse ultrices gravida dictum fusce ut placerat. In mollis nunc sed id.</p>
+        </article>
+      </div>
+    </div>
+    <div class="tile is-parent">
+      <div class="container">
+        <article class="tile is-child notification is-dark">
+          <p class="title rainbow text">leo urna molestie</p>
+          <p class="subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+            aliqua. Eleifend mi in nulla posuere sollicitudin. Sodales ut etiam sit amet nisl purus in mollis. Proin sed
+            libero enim sed faucibus turpis in eu mi. Phasellus egestas tellus rutrum tellus pellentesque eu tincidunt. Id
+            porta nibh venenatis cras sed felis eget velit aliquet. Arcu felis bibendum ut tristique et egestas quis. Ullamcorper
+            morbi tincidunt ornare massa eget egestas purus. Tempus egestas sed sed risus pretium quam vulputate. Id velit
+            ut tortor pretium viverra suspendisse. Pellentesque habitant morbi tristique senectus et netus et malesuada.
+            Id interdum velit laoreet id. Auctor urna nunc id cursus metus aliquam eleifend mi in. Tellus pellentesque eu
+            tincidunt tortor aliquam. Convallis convallis tellus id interdum velit laoreet. Praesent semper feugiat nibh
+            sed pulvinar. Erat nam at lectus urna duis. Orci nulla pellentesque dignissim enim sit amet. Consectetur adipiscing
+            elit duis tristique. Lorem ipsum dolor sit amet consectetur adipiscing.
 
           </p>
         </article>
       </div>
-    </section>
-    <footer class="footer has-background-grey-dark">
-      <div id="footer-divider" class="container has-text-centered has-text-white">
-        <span class="rainbows"><span class="transparentbox">Congrats on finding my easter egg. I am honestly so proud of you.</span></span>
-      </div>
-      <div class="content has-text-centered has-text-white">
-        <p>
-          <em class="has-text-white">Website</em> by Andrey Samoilov. Hydropower project design by team <strong class="has-text-white">UDoNotFloodCauseOfUs</strong>.
-        </p>
-      </div>
-    </footer>
+    </div>
+  </section>
+  <section class="section has-background-dark has-text-white">
+    <div class="has-text-centered">
+      <p class="title has-text-white">Learn the techincal details of the project.</p>
+      <a href="info.html" class="button superbutton is-large is-dark rainbow ">
+        Learn more
+      </a>
+    </div>
+  </section>
+  <footer class="footer has-background-grey-dark">
 
-    <script type="text/javascript">
-      (function() {
-        var burger = document.querySelector('.burger');
-        var nav = document.querySelector('#' + burger.dataset.target);
+    <!--<div id="footer-divider" class="container has-text-centered has-text-white">
+      <span class="rainbow">
+        <span class="transparentbox">Congrats on finding my easter egg. I am honestly so proud of you.</span>
+      </span>
+    </div> -->
+    <div class="content has-text-centered has-text-white">
+      <p>
+        <em class="has-text-white">Website</em> by Andrey Samoilov. Hydropower project design by team
+        <strong class="has-text-white">UDoNotFloodCauseOfUs</strong>.
+      </p>
+    </div>
+  </footer>
 
-        burger.addEventListener('click', function() {
-          burger.classList.toggle('is-active');
-          nav.classList.toggle('is-active');
-        });
-      })();
+  <script type="text/javascript">
+    (function () {
+      var burger = document.querySelector('.burger');
+      var nav = document.querySelector('#' + burger.dataset.target);
 
-    </script>
-  </body>
+      burger.addEventListener('click', function () {
+        burger.classList.toggle('is-active');
+        nav.classList.toggle('is-active');
+      });
+    })();
+
+  </script>
+</body>
 
 </html>

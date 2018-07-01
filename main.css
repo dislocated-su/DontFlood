@@ -80,7 +80,7 @@ html {
 }
 
 .superbutton {
-  transition: background-color, 350ms, ease-in-out;
+    transition: background-color, 350ms, ease-in-out;
   text-align: center;
   white-space: nowrap;
   padding-left: 1.375em;
@@ -127,6 +127,7 @@ html {
 
 .text {
   color: transparent;
+    background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -176,12 +177,12 @@ html {
 #fst {
   left: 10px;
   animation-delay: 50ms;
-  color: #23d160;
+    color: #209cee;
 }
 
 #snd {
   top: 10px;
-  color: #ff3860;
+    color: #23d160;
 }
 
 #trd {
@@ -189,7 +190,7 @@ html {
   left: 5.6vw;
   bottom: 4px;
   animation-delay: 55ms;
-  color: #b86bff;
+    color: #ff3860;
 }
 
 #cogbox {
@@ -212,4 +213,8 @@ html {
 
 #footer-divider {
   padding-bottom: 20px;
+}
+
+#tile-green {
+  color:rgba(0,0,0,0.7)
 }
