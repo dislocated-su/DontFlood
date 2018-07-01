@@ -80,7 +80,7 @@ html {
 }
 
 .superbutton {
-    transition: background-color, 350ms, ease-in-out;
+    transition: opacity 150ms 0ms ease-in-out;
     text-align: center;
     white-space: nowrap;
     padding-left: 1.375em;
