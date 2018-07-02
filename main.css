@@ -79,6 +79,10 @@ html {
     min-height: 88vh;
 }
 
+.title {
+    padding-bottom: 10px;
+}
+
 .superbutton {
     transition: opacity 150ms 0ms ease-in-out;
     text-align: center;
@@ -93,17 +97,17 @@ html {
     color: white;
 }
 
-.left {
-    animation: rotateanimleft 2s linear infinite;
-}
-
-.right {
-    animation: rotateanimright 2s linear infinite;
-}
-
 .cog {
     position: relative;
     color: gray;
+}
+
+.cog.left {
+    animation: rotateanimleft 2s linear infinite;
+}
+
+.cog.right {
+    animation: rotateanimright 2s linear infinite;
 }
 
 .light-theme {
@@ -125,7 +129,7 @@ html {
     background-size: 800% 800%;
 }
 
-.text {
+.rainbow.text {
     color: transparent;
     background-clip: text;
     -webkit-background-clip: text;
@@ -160,32 +164,22 @@ html {
     color: transparent;
 }
 
-#stats {
+.layer {
     box-shadow: -8px -7px 26px -2px rgba(0, 0, 0, 0.35);
 }
 
-#bolt {
-    color: lightslategray;
-    animation: boltlight 10s ease 1s infinite;
-    margin-right: 10px;
-}
-
-#drop {
-    color: #45C8DD;
-}
-
-#fst {
+.cog#fst {
     left: 10px;
     animation-delay: 50ms;
     color: #209cee;
 }
 
-#snd {
+.cog#snd {
     top: 10px;
     color: #23d160;
 }
 
-#trd {
+.cog#trd {
     display: block;
     left: 5.6vw;
     bottom: 4px;
@@ -199,12 +193,18 @@ html {
     left: 5vw;
 }
 
-#scrolldown_text {
-    margin: 3vh;
+#bolt {
+    color: lightslategray;
+    animation: boltlight 10s ease 1s infinite;
+    margin-right: 10px;
 }
 
-#scrolldown {
-    box-shadow: -8px -7px 26px -2px rgba(0, 0, 0, 0.20);
+#drop {
+    color: #45C8DD;
+}
+
+#scrolldown_text {
+    margin: 3vh;
 }
 
 #heroContainer {
@@ -215,6 +215,6 @@ html {
     padding-bottom: 20px;
 }
 
-#tile-green {
-    color: rgba(0, 0, 0, 0.7)
+#benefits {
+    margin-bottom: 20px;
 }
