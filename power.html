@@ -11,7 +11,7 @@
 	<script type="text/x-mathjax-config">
 		MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
 	  </script>
-	  <link rel="icon" type="image/png" href="images/logo.png" />
+	<link rel="icon" type="image/png" href="images/logo.png" />
 </head>
 
 <body>
@@ -100,10 +100,12 @@
 						<b>It is possible to put more turbines on a greater distance to generate more power. </b>
 					</p>
 					<p class="subtitle">
-						So, since it is close, and we have a town of Khulo close to us, let's build a turbine right next to them! That way we can connect the city and upgrade it's power lines while connecting the turbine to the grid.
+						So, since it is close, and we have a town of Khulo close to us, let's build a turbine right next to them! That way we can
+						connect the city and upgrade it's power lines while connecting the turbine to the grid.
 					</p>
 					<p class="subtitle">
-						The turbine we chose was the Francis because it is the most efficient turbine for this environment, particularly potential head and flow rate. 
+						The turbine we chose was the Francis because it is the most efficient turbine for this environment, particularly potential
+						head and flow rate.
 					</p>
 				</div>
 				<div class="column has-text-centered">
@@ -113,55 +115,101 @@
 					</iframe>
 				</div>
 			</div>
-		</div>
-		<br>
-		<div class="container">
-			<h1>
-				Power calculations
-			</h1>
-			<p class="subtitle">
-				To calculate power output of the turbine, we just need to use simple equation: $P=ρgHQη$
-			</p>
-			<p class="subtitle">
-				<br>
-				Where:
-<br>
-<br>
-$ρ = 100kg/m^3$ - Water density
-<br>
-<br>
-$g = 9.81m/s^2$ - Effect of gravity
-<br>
-<br>
-$H = 270m$ - Net potential head
-<br>
-<br>
-$Q = 20m^3/s$ - Flow rate
-<br>
-<br>
-$η = 90$ - Efficiency
-<br>
+			<br>
+			<div class="container">
+				<nav class="level">
+					<div class="level-item has-text-centered">
+						<div>
+							<p class="heading text-larger-lighter">Power output</p>
+							<p class="title has-text-dark">25060000 kWh</p>
+						</div>
+					</div>
+					<div class="level-item has-text-centered">
+						<div>
+							<p class="heading text-larger-lighter">Efficiency</p>
+							<p class="title has-text-dark">90%</p>
+						</div>
+					</div>
+					<div class="level-item has-text-centered">
+						<div>
+							<p class="heading text-larger-lighter">Supplies</p>
+							<p class="title has-text-dark">56000 people</p>
+						</div>
+					</div>
+					<div class="level-item has-text-centered">
+						<div>
+							<p class="heading text-larger-lighter">Net potential head</p>
+							<p class="title has-text-dark">270m</p>
+						</div>
+					</div>
+				</nav>
+				<h1>
+					Power calculations
+				</h1>
+				<p class="subtitle">
+					To calculate power output of the turbine, we just need to use simple equation: $P=ρgHQη$
+				</p>
+				<div class="subtitle">
+					<p>
+						Where:
+					</p>
+					<p>
+						$ρ = 100kg/m^3$ - Water density
+					</p>
+					<p>
+						$g = 9.81m/s^2$ - Effect of gravity
+					</p>
+					<p>
+						$H = 270m$ - Net potential head
+					</p>
+					<p>
+						$Q = 20m^3/s$ - Flow rate
+					</p>
+					<p>
+						$η = 90$ - Efficiency
+					</p>
 
-<div class="subtitle">
-	Which brings us to 47676.6 kW produced. Convert to kWh $47676.6 kW * 8760h * 0.6 = 250588209.6 kWh$   
-</div>
+					<br>
+					<div class="subtitle">
+						<div>
+							<h4 class="title">Power per year</h4>
+						</div>
+						<p>
+							This brings us to 47676.6 kW produced. Convert to kWh $47676.6 kW * 8760h * 0.6 = 250588209.6 kWh$
+						</p>
 
-			</p>
-		</div>
-		<br>
-		<div class="container">
-			<h2>
-				Explaining the choice
-			</h2>
-			<p class="subtitle">
-				Not only a flow of
-				<strong>20m
-					<sup>3</sup>/s</strong> is more than enough to provide
-				<strong>irrigation</strong> services to the nearby farmers, it allows the turbine to run with a
-				<strong>higher</strong> output and consistency.
-			</p>
-		</div>
+						<p>
+							Where:
+						</p>
+
+						<p>
+							$0.6 = uptime$ - the average percentage the turbine is running.
+						</p>
+						<p>
+							$8760h = 24 * 365$ - The hours in a year
+						</p>
+					</div>
+					<div class="subtitle">
+						<div>
+							<h4 class="title">People supplied</h4>
+						</div>
+						<p>
+							The average power use per person per year in Georgia is 3,345 kWh.
+						</p>
+						<p>
+							<a href="https://www.ceicdata.com/en/georgia/energy-production-and-consumption/ge-electric-power-consumption-per-capita">Source</a>
+						</p>
+						<p>To calculate the number of people supplied, we need to divide the power production per year by average power use per
+							person per year.</p>
+						<section class="section">
+							<p class="has-text-centered title">$250588209.6kWh / 3345kWh = 74914$ people</p>
+						</section>
+					</div>
+				</div>
+			</div>
+			<br>
 	</section>
+
 
 	<section class="section has-background-warning">
 		<div class="container">
@@ -194,4 +242,4 @@ $η = 90$ - Efficiency
 	</footer>
 </body>
 
-</html>
+</html>	
