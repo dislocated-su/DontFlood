@@ -8,6 +8,9 @@
 	<link rel="stylesheet" href="main.css">
 	<script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
 	<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/latest.js?config=TeX-MML-AM_CHTML' async></script>
+	<script type="text/x-mathjax-config">
+		MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+	  </script>
 </head>
 
 <body>
@@ -103,7 +106,7 @@
 					</p>
 				</div>
 				<div class="column has-text-centered">
-					<iframe class="image shadow" width="600" height="350" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyDkcPLHB4An_FOmKm2MMnZ8-lTgpb6EyFY
+					<iframe width="600" height="350" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyDkcPLHB4An_FOmKm2MMnZ8-lTgpb6EyFY
 					&q=41.642483,42.322829
 					&maptype=satellite" allowfullscreen>
 					</iframe>
@@ -116,7 +119,32 @@
 				Power calculations
 			</h1>
 			<p class="subtitle">
-				To calculate power output of the turbine, we just need to use simple equation:
+				To calculate power output of the turbine, we just need to use simple equation: $P=ρgHQη$
+			</p>
+			<p class="subtitle">
+				<br>
+				Where:
+<br>
+<br>
+$ρ = 100kg/m^3$ - Water density
+<br>
+<br>
+$g = 9.81m/s^2$ - Effect of gravity
+<br>
+<br>
+$H = 270m$ - Net potential head
+<br>
+<br>
+$Q = 20m^3/s$ - Flow rate
+<br>
+<br>
+$η = 90$ - Efficiency
+<br>
+
+<div class="subtitle">
+	Which brings us to 47676.6 kW produced. Convert to kWh $47676.6 kW * 8760h * 0.6 = 250588209.6 kWh$   
+</div>
+
 			</p>
 		</div>
 		<br>
