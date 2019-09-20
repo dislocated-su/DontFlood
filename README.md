@@ -1,2 +1,2 @@
-# Website for a Hydropower project
-Not a real one btw
+# Website for a "real" Hydropower project
+
